@@ -1,0 +1,25 @@
+.splash-inner {
+    background-image: url(public/media/gift.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.splash-logo {
+    font-size: 10em;
+    font-weight: bold;
+    color: seashell;
+    animation: 1500ms linear scalein;
+    margin: 1em;
+}
+
+@keyframes scalein {
+  0% {transform: scale(5) rotate(320deg); opacity: 0}
+  50% {transform: scale(0.5) rotate(0deg);}
+  100% {transform: scale(1);}
+}
