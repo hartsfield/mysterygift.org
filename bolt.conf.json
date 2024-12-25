@@ -8,7 +8,7 @@
         "alertsOn": true,
         "env": {"logFilePath": "./log.txt"},
         "version": "0.1",
-        "repo": "https://github.com/hartsfield/mysterygift.org"
+        "repo": "https://github.com/hartsfield/mysterygift.org/"
     },
     "gcloud": {
         "command": "gcloud",

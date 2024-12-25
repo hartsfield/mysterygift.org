@@ -1,20 +1,9 @@
-.autosplash-img {
-    background-image: url(public/media/gift.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    position: fixed;
-    z-index: -10019;
-    width: 100%;
-}
-
 .splash-inner {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: flex-start;
-    margin: 1em;
 }
 
 .splash-logo {
@@ -22,6 +11,7 @@
     font-weight: bold;
     color: seashell;
     animation: 1500ms linear scalein;
+    text-shadow: 0px 0px 19px #272727;
 }
 
 @keyframes scalein {

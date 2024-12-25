@@ -1,7 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
 <html>
-{{template "head.html" . }} 
+  {{template "head.html" . }} 
   <body>
-	{{template "autosplash.html" . }}
+    <div class="main-outer">
+      {{template "autosplash.html" . }}
+      {{template "qr.html" . }}
+    </div>
   </body>
 </html>
