@@ -1,12 +1,14 @@
 .qr-outer {
     width:100%;
+    margin-top: 1em;
 }
 
 .qr-svg {
-    background-color: #c16cff7a;
+    background-color: #008588;
     padding: 0.6em;
     border-radius: 0.9em;
     backdrop-filter: blur(10px);
-    box-shadow: 0 0 54px -10px black;
-    animation: 1500ms linear scalein;
+    box-shadow: 0 0 54px -10px #ffffff;
+    filter: invert(1);
 }
+

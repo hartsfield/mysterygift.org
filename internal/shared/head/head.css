@@ -13,11 +13,10 @@ body {
     background-image: url(public/media/gift.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
     position: fixed;
     z-index: -10019;
-    align-items: left;
     display: flex;
+    /* align-items: left; */
     flex-direction: column;
     flex-wrap: nowrap;
     width: 100%;
@@ -30,8 +29,8 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     max-width: 55ch;
-    margin: 1em 1em 1em 1em;
-    align-items: flex-start;
+    align-items: flex-end;
+margin: 0em 2em 2em 2em;
 }
 
 
